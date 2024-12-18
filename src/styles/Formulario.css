@@ -1,0 +1,84 @@
+/* Estilo general para el formulario */
+.formulario {
+    max-width: 800px; /* Aumenta el máximo ancho del formulario */
+    width: 100%; /* Asegura que el formulario ocupe todo el espacio disponible en pantallas pequeñas */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo claro para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el formulario */
+  }
+  
+  
+  /* Estilo para los grupos de campos */
+  .form-group {
+    margin-bottom: 20px; /* Espacio entre los grupos de campos */
+  }
+  
+  /* Estilo para las etiquetas */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+  }
+  
+  /* Estilo para los campos de entrada */
+  .form-group input {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Borde gris para los campos */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    transition: border-color 0.3s ease; /* Transición para el borde */
+  }
+  
+  /* Estilo para el campo de entrada en foco */
+  .form-group input:focus {
+    border-color: #007bff; /* Borde azul al enfocar */
+    outline: none; /* Elimina el borde predeterminado al enfocar */
+  }
+  
+  /* Estilo para el botón de envío */
+  button {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none; /* Elimina el borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición para el fondo */
+    width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
+  }
+  
+  /* Estilo para el botón al pasar el ratón */
+  button:hover {
+    background-color: #0056b3; /* Fondo azul más oscuro */
+  }
+  
+/* Estilo para el contenedor del checkbox y el texto de términos y condiciones */
+.checkbox-container {
+    display: grid; /* Usamos grid para organizar los elementos en una fila */
+    grid-template-columns: auto; /* Solo una columna para que el checkbox y texto estén en la misma línea */
+    justify-items: center; /* Alinea ambos elementos al centro */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    gap: 5px; /* Opcional, para un pequeño espacio entre el checkbox y el texto */
+  }
+  
+  /* Eliminar el margen entre el checkbox y el texto */
+  .checkbox-container input[type="checkbox"] {
+    margin: 0; /* Asegura que el checkbox no tenga márgenes */
+  }
+  
+  
+  /* Estilo para el campo de entrada con error */
+  .form-group input:invalid {
+    border-color: #dc3545; /* Borde rojo en caso de error */
+  }
+  
+  /* Estilo para el campo de entrada correcto */
+  .form-group input:valid {
+    border-color: #28a745; /* Borde verde cuando la validación es exitosa */
+  }
+  

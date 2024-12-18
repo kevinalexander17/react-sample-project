@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Main App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  background-color: #161616; /* Blue background */
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* FechaHora and NombreEmpresa styles */
+.app-header .fecha-hora {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.app-header .nombre-empresa {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+
+/* Formulario styles */
+form {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #005f73;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #161616;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+/* Redes sociales styles */
+.app-footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .app-header .fecha-hora {
+    font-size: 1rem;
+  }
+
+  .app-header .nombre-empresa {
+    font-size: 1.5rem;
+  }
+
+  .app-header .carrusel {
+    max-width: 100%;
+  }
+
+  form {
+    padding: 1rem;
+  }
+
+  .app-footer .redes-sociales {
+    flex-direction: column;
+  }
+
+  .app-footer .redes-sociales a {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+}

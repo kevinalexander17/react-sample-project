@@ -1,0 +1,9 @@
+/* Estilo para el nombre de la empresa */
+.nombre-empresa {
+    font-size: 2.5rem; /* Tamaño de fuente grande para el nombre */
+    font-weight: bold; /* Negrita para el nombre */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Espaciado alrededor del texto */
+    transition: color 0.5s ease; /* Transición suave para el cambio de color */
+  }
+  

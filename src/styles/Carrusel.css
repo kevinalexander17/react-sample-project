@@ -1,0 +1,16 @@
+.carrusel {
+    margin-top: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Para evitar que las imágenes sobresalgan del contenedor */
+    height: 500px; /* Establecer una altura fija para el carrusel */
+    position: relative;
+  }
+  
+  .carrusel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que las imágenes se ajusten correctamente sin distorsión */
+    object-position: center; /* Mantiene el centro de la imagen centrado */
+  }
+  
